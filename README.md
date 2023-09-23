@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Books Website
+
+The Book Review Website is a full-stack web application built with Next.js and Python
+that empowers users to engage with a diverse collection of books and explore detailed
+book profiles.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+
+Make sure you have Node.js and npm installed on your machine.
+
+Node.js: https://nodejs.org/en/download
+
+npm (included with Node.js)
+
+## Installation
+
+Clone the repository :
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/pavan02m/NextJsAPP
+```
+Navigate to the project directory :
+
+```bash
+cd NextJsAPP
+```
+Install packages :
+```bash
+yarn install
+```
+
+## Usage
+Run :
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at http://localhost:3000.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open your web browser and go to http://localhost:3000 to view the application.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Components
+Homepage :
+The homepage displays a list of books. Each book is represented as a card with a title and author.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Book Details Page : 
+The Book Details page displays information about a specific book, including its title, author, genre, publication date, and summary.
+## API Link
+```bash
+https://flaskapi2-a8hs.onrender.com
+```
 
-## Learn More
+## Demo
+```bash
+https://next-js-app-rho-one.vercel.app/
+```
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
